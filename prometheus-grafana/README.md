@@ -9,3 +9,8 @@ Dentro de la carpeta prometheus-grafana ejecutar:
   kubectl apply --server-side -f setup -f .
 
 Nota: A veces es necesario ejecutar el comando varias veces
+
+grafana
+
+username: admin
+password: prom-operator
