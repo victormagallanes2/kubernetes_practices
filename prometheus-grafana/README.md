@@ -7,6 +7,7 @@ Instalación:
 Dentro de la carpeta prometheus-grafana ejecutar:
 
   kubectl apply --server-side -f setup -f .
+  kubectl apply --server-side --force-conflicts -f setup -f .
 
 Nota: A veces es necesario ejecutar el comando varias veces
 
